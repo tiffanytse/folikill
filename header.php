@@ -40,7 +40,7 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="content-header">
 				<div class="logo">
-					<div style="position:absolute;top:10px;z-index:2;font-size:21px;text-align:right;width:350px;font-weight:bold;letter-spacing:4px;text-shadow: 1px 1px 0px #FFF;">
+					<div class="site-header--logo-text">
 						<a href="mailto:torontoelectrolysis&#064;gmail.com" style="color:#000">torontoelectrolysis<span style="color:#ff0060">@</span>gmail.com</a><br/><span style="color:#ff0060">+1</span> 647<span style="color:#ff0060">.</span>870<span style="color:#ff0060">.</span>3780
 					</div>
 					<a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri().'/images/follikill_13_info.gif';?>" alt=""/></a>
