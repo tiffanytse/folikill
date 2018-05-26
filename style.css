@@ -117,7 +117,7 @@ a:visited {
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: 2px dotted;
 }
 
 a:active,
@@ -4188,3 +4188,6 @@ ul.nav-menu li:hover > ul,
 	margin-bottom:20px;
 }
 
+.logo a:hover {
+	border-bottom: 0;
+}
