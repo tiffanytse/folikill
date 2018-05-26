@@ -1,0 +1,50 @@
+<html>
+<head>
+	<link rel="stylesheet" href="lib/follikill.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="lib/fonts.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script>
+		$( document ).ready(function() {
+			
+			function adjust()
+			{
+				el_top=0;
+				if (($( window ).height()-640)/2 > 0) el_top = ($( window ).height()-640)/2
+				$('#logo').css({left: $('#image').width(), top: el_top})
+				$('#logo').fadeIn("slow")
+			}
+			
+			setTimeout(function() {
+				adjust()
+			}, 500);
+
+			
+			$( window ).resize(function() {
+				adjust()
+			});
+			
+		});	
+	</script>
+</head>
+<body style="margin:0px;background:url(gfx/bg_splash.jpg)">
+	
+	<img id="image" src="gfx/splash_woman.png" style="position:fixed;bottom:0px;left:0px;height:100%">
+	
+	<div id="logo" style="position:absolute;text-align:center;height:540px;margin-top:auto;display:none">
+		
+		<img src="gfx/follikill_12B.gif" style="width:600px;height:auto">
+		<br/><div style="font-family:muli;font-size:21px;color:#000000;letter-spacing:2px;">permanent hair removal that is</div>
+		<br/><div style="font-family:muli;font-size:40px;color:#ff0060;letter-spacing:4px"><b>TRULY PERMANENT</b></div>
+		
+		<div class="round10 enter_border">
+			<div class="round15 enter_trans">
+				<div class="round15 enter_text">enter</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

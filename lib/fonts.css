@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'blippo';
+    src: url('fonts/blippo.eot');
+    src: url('fonts/blippo.eot?#iefix') format('embedded-opentype'),
+         url('fonts/blippo.woff') format('woff'),
+         url('fonts/blippo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

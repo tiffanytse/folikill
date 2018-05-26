@@ -1,0 +1,22 @@
+.round15
+{
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-khtml-border-radius: 15px;
+}
+.round10
+{
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	-khtml-border-radius: 19px;
+}		
+
+.enter_text {position:relative;font-family:blippo;font-size:30px;color:#fff;letter-spacing:4px;width:150px;background:#ff0060;padding:5px;cursor:hand;curosr:pointer} 
+.enter_text:hover {background:#000;color:#fff}
+
+.enter_trans {border:2px solid transparent;width:170px;position:relative}
+
+.enter_border {border:2px solid #000;width:164px;margin:auto;margin-top:50px;position:relative}
+.enter_border:hover {border:2px solid #ff0060;}
