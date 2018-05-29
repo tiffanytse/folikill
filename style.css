@@ -3384,14 +3384,16 @@ ul.nav-menu li:hover > ul,
 		width: 100%;
 		padding-bottom: 70px;
 	}
-	.page-template-blog-template .site-main {
+	.page-template-blog-template .site-main,
+	.single-post .site-main {
 		padding-bottom: 100px;
 	}
 	.comments-area {
-		width: 480px;
+		width: 100%;
 	}
 	.post-navigation {
-		width: 480px;
+		width: 100%;
+		padding: 0 30px;
 	}
 	.hentry footer.footer-post {
 		width: 490px;
@@ -3581,3 +3583,7 @@ ul.nav-menu li:hover > ul,
 	width: inherit;
 }
 
+.post_date.updated,
+.post_date.updated + span{
+	display: none;
+}
