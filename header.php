@@ -41,7 +41,7 @@
 			<div class="content-header">
 				<div class="logo">
 					<div class="site-header--logo-text">
-						<a href="mailto:torontoelectrolysis&#064;gmail.com" style="color:#000">torontoelectrolysis<span style="color:#ff0060">@</span>gmail.com</a><br/><span style="color:#ff0060">+1</span> 647<span style="color:#ff0060">.</span>870<span style="color:#ff0060">.</span>3780
+						<a href="mailto:torontoelectrolysis&#064;gmail.com" style="color:#000">torontoelectrolysis<span style="color:#ff0060">@</span>gmail.com</a><br/><a href="sms://+1-647-870-3780" style="color:#000"><span style="color:#ff0060">+1</span> 647<span style="color:#ff0060">.</span>870<span style="color:#ff0060">.</span>3780</a>
 					</div>
 					<a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri().'/images/follikill_13_info.gif';?>" alt=""/></a>
 				</div>

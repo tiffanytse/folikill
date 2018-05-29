@@ -2774,7 +2774,8 @@ ul.nav-menu li:hover > ul,
 	border-radius: 20px;
 	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
 }
-.site-content article {
+
+.site-content .content{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 28px;
@@ -3371,7 +3372,7 @@ ul.nav-menu li:hover > ul,
 }
 @media (max-width: 999px) {
 
-	.site-content article {
+	.site-content .content {
 		max-width: 604px;
 		margin-left: auto;
 		margin-right: auto;
@@ -3451,7 +3452,7 @@ ul.nav-menu li:hover > ul,
 	.site-header--logo-text {
 		font-size: 18px;
 	}
-	.site-content article {
+	.site-content .content {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
