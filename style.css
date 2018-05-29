@@ -769,7 +769,7 @@ img.wp-smiley,
 
 .site-main {
 	position: relative;
-	padding: 40px 0 100px 0;
+	padding: 40px 0 50px 0;
 }
 
 .site-main .sidebar-container {
@@ -3227,9 +3227,9 @@ ul.nav-menu li:hover > ul,
 {
 	width:900px;
 	margin:auto;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
- .content-top
+ /* .content-top
 {
 	background: url(images/bg-top-content.png) no-repeat center;
 	height: 35px;
@@ -3243,7 +3243,7 @@ ul.nav-menu li:hover > ul,
 {
 	background: url(images/bg-bottom-content.png) no-repeat center;
 	height: 35px;
-}
+} */
  .first-letter
 {
 	color: #F06;
@@ -3256,15 +3256,27 @@ ul.nav-menu li:hover > ul,
 }
  .body-content
 	{
-		width: 900px;
 		margin: auto;
 		position: relative;
+		background-color: #fff;
+		border-radius: 20px;
+
+		box-shadow: 0 0 8px 0 rgba(0,0,0,0.4);
+	}
+	.site-content article{
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 28px;
+
+		border: 10px solid rgba(255,255,255, 0.4);
+		box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+
 	}
 
 	.body-content-nosidebar header, .body-content-nosidebar .entry-content , .body-content-nosidebar .entry-meta {
-		padding-left: 75px !important;
-		padding-right: 65px !important;
-
+		/* padding-left: 75px !important;
+		padding-right: 65px !important; */
+		padding: 30px !important;
 	}
 	.body-content-nosidebar header
 	{
@@ -3931,11 +3943,8 @@ ul.nav-menu li:hover > ul,
 
 	#content_gallery .thumb_div
 	{
-
 		border: 9px solid #fff !important;
 		box-shadow: 0px 0px 10px 0px #999;
-
-
 		float:none !important;
 		margin:auto
 	}
@@ -3943,7 +3952,6 @@ ul.nav-menu li:hover > ul,
 	#content_gallery .thumb_div:hover
 	{
 		border: 9px solid #F06 !important;
-
 	}
 
 
@@ -3954,20 +3962,17 @@ ul.nav-menu li:hover > ul,
 
 .footer_ar
 {
-	z-index: 10;
 	color: #686758;
 	font-size: 14px;
-	text-align: right !important;
-	height: 101px;
-	padding: 0px;
+	padding: 13px 20px;
 	margin: 0px;
 	width:100%;
-	position:fixed;
-	bottom:0px;
-	background: url(images/footer_bg.png) repeat-x;
+	background: white;
+	box-shadow: 0px 3px 95px -17px rgba(0,0,0,0.4);
+
 }
 .menu_footer{
-	position:absolute;bottom:10px;color:#aaa;font-size:13px;padding-bottom:0px;letter-spacing:2px;width:100%;
+	color:#aaa;font-size:13px;padding-bottom:0px;letter-spacing:2px;width:100%;
 
  }
  .menu_footer a{
@@ -3975,15 +3980,18 @@ ul.nav-menu li:hover > ul,
 
  }
 
-
-
-
 	.footer_ar>div
 	{
-		position:absolute;
-		bottom:0px;
 		max-width:100%;
 	}
+
+	.footer_ar
+	{
+		position: fixed;
+		bottom: 0;
+		width:100%;
+	}
+
 	.div_arsite{
 		position: absolute;
 		right: 10px;
@@ -4043,7 +4051,7 @@ ul.nav-menu li:hover > ul,
 	{
 		width:100%;
 	}
-	.content-top
+	/* .content-top
 	{
 		background: url(images/bg-top-content642.png) no-repeat center;
 		height: 35px;
@@ -4062,7 +4070,7 @@ ul.nav-menu li:hover > ul,
 		height: 35px;
 		width:100%;
 		margin:auto;
-	}
+	} */
 
 	 .comments-area{
 		width:480px;
@@ -4079,17 +4087,12 @@ ul.nav-menu li:hover > ul,
 	.footer_ar .site-info
 	{
 		max-width:100%;
-		min-width:473px;
-	}
-	.footer_ar
-	{
-		width:100%;
-
+		/* min-width:473px; */
 	}
 
 	.menu_footer{
-		width:640px;
-		margin-left:3%;
+		max-width:540px;
+		margin: 0 auto;
 
 	}
 	.footer_img, .img_home
@@ -4107,7 +4110,7 @@ ul.nav-menu li:hover > ul,
 		width:90%;
 	}
 
-	.content{ width:650px;margin:auto;}
+	.content{ width: 100%; margin:auto;}
 	.left-side{ background:transparent !important;}
 	.right-side{display:none}
 	#blog footer>div, #pagedefault-content footer>div {padding-left:22px;}
@@ -4126,10 +4129,6 @@ ul.nav-menu li:hover > ul,
 {
 	.menu_footer{
 		font-size:10px;
-		width:390px;
-		bottom:0px;
-		position:relative;
-		margin-left:10%;
 	}
 
 
@@ -4137,11 +4136,6 @@ ul.nav-menu li:hover > ul,
 
 @media (max-width: 643px)
 {
-	/* .site-main, .site
-	{
-		width:640px;
-	} */
-
 	.site-header--logo-text {
 		font-size: 18px;
 	}
@@ -4181,8 +4175,11 @@ ul.nav-menu li:hover > ul,
 	}
 	.menu_footer{
 		font-size:8px;
-		width:294px;
-		margin-left:5%;
+	}
+	.footer_ar
+	{
+		position: relative;
+		width:100%;
 	}
 
 }
@@ -4199,7 +4196,7 @@ ul.nav-menu li:hover > ul,
 		margin:auto;
 	}
 	.menu_footer{
-		display:none;
+		/* display:none; */
 	}
 
 	.logo img {
@@ -4257,5 +4254,13 @@ ul.nav-menu li:hover > ul,
 	margin-bottom:20px;
 }
 
+.comments-area {
+	width: inherit;
+}
 
+main
+
+remove padding
+
+remove large fonts from mobile and tablet
 
