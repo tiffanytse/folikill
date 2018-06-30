@@ -27,12 +27,12 @@
 
 	<?php wp_footer(); ?>
 
-	<? if (strpos($_SERVER["REQUEST_URI"],"home")) { ?>
-		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/home-legs.png" alt="" style="position:fixed;bottom:0px;left:0px;height:40%;width:auto;z-index:200"/>
+	<? if (is_front_page()) { ?>
+		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/home-legs-crossed.png" alt="" style="position:fixed;bottom:30px;left:0px;height: 200px;width:auto"/>
 	<? } ?>
 
 	 <? if (strpos($_SERVER["REQUEST_URI"],"electrolysis-black-skin")) { ?>
-		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/african-woman.png" alt="african woman" style="position:fixed;bottom:45px; right: 10px; height:300px;width:auto;z-index:200"/>
+		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/black-skin-hair-woman.png" alt="african woman" style="position:fixed;bottom:45px; right: 10px; height:300px;width:auto;z-index:200"/>
 	<? } ?>
 
 	<? if (strpos($_SERVER["REQUEST_URI"],"blog")) { ?>
@@ -40,11 +40,7 @@
 	<? } ?>
 
 	<? if (strpos($_SERVER["REQUEST_URI"],"about")) { ?>
-		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/footer_woman3.png" alt="" style="position:fixed;bottom:45px;left:0px;height:60%;width:auto;"/>
-	<? } ?>
-
-	<? if (strpos($_SERVER["REQUEST_URI"],"gallery")) { ?>
-		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/footer_woman4.png" alt="" style="position:fixed;bottom:40px;right:0px;height:80%;width:auto"/>
+		<img class="footer_img" src="<? echo get_template_directory_uri(); ?>/images/footer_woman3.png" alt="" style="position:fixed;bottom:45px;left:0px;height:320px;width:auto;"/>
 	<? } ?>
 
 	<? if (strpos($_SERVER["REQUEST_URI"],"electrolysis-toronto")) { ?>

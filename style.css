@@ -2231,6 +2231,11 @@ ul.nav-menu li:hover > ul,
 	display: block;
 	margin: -10px auto 0;
 }
+
+.menu_footer {
+	position: relative;
+	z-index: 1100;
+}
 /**
  * 8.0 Media Queries
  * ----------------------------------------------------------------------------
@@ -3587,3 +3592,4 @@ ul.nav-menu li:hover > ul,
 .post_date.updated + span{
 	display: none;
 }
+
