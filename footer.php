@@ -16,7 +16,7 @@
 		<div class="site-footer footer_ar">
 			<div class="site-info">
 				<div align="center" class="menu_footer">
-					<a href="/home">home</a> | <a href="/about">about</a> | <a href="/blog">blog</a>| <a href="/electrolysis case study">electrolysis case study</a> |<a href="/fee schedule">fee schedule</a> |<a href="/contact">contact</a> | <a href="/contact">+1 647.870.3780</a> | <a href="mailto:torontoelectrolysis@gmail.com">torontoelectrolysis@gmail.com</a>
+					<a href="<?php echo get_site_url(); ?>">home</a> | <a href="<?php echo get_site_url(); ?>/about">about</a> | <a href="<?php echo get_site_url(); ?>/blog">blog</a>| <a href="<?php echo get_site_url(); ?>/electrolysis case study">electrolysis case study</a> |<a href="<?php echo get_site_url(); ?>/electrolysis-toronto-fees">fee schedule</a> |<a href="<?php echo get_site_url(); ?>/contact">contact</a> | <a href="/contact">+1 647.870.3780</a> | <a href="mailto:torontoelectrolysis@gmail.com">torontoelectrolysis@gmail.com</a>
 				</div>
 
 
