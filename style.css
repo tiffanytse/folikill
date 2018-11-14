@@ -3593,3 +3593,30 @@ ul.nav-menu li:hover > ul,
 	display: none;
 }
 
+.entry-title {
+	color: #ff0060;
+	font-weight: bold;
+}
+
+.entry-header {
+	margin-bottom: 0;
+}
+
+.entry-content #author-bio-box {
+	width: 100%;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+	margin-bottom: 1em;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4{
+	color: #ff0060;
+}
+
+#author-bio-box .bio-socials {
+	width: 100%;
+	border-top: 1px solid #bbb;
+	padding: 5px 0 10px;
+}
